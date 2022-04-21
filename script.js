@@ -38,7 +38,7 @@ function ValidationofNum(){
     // define x is the input
     if (x <= 0)
     {alert("Enter a positive number");
-     // if x is smaller then zero, pop alert "Enter a positive number"
+     // if x is smaller than or equal to zero, pop alert "Enter a positive number"
     }
 
 }
