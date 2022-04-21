@@ -31,12 +31,14 @@ function updateRate(onchange)
     document.getElementById("rate_val").innerText=rateval;
     }
 
+//function for validate positive number input in principal
+
 function ValidationofNum(){
     var x = document.getElementById("principal").value;
-    if (x <= 0)
-    {alert("I am an alert box!");
+    // define x is the input
+    if (x < 0)
+    {alert("Enter a positive number");
+     // if x is smaller then zero, pop alert "Enter a positive number"
     }
-    else{
-        return;
-    }
+
 }
