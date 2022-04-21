@@ -23,4 +23,12 @@ function updateRate(onchange)
     document.getElementById("rate_val").innerText=rateval;
     }
 
+function ValidationofNum()
+    var x = document.getElementById("principal").value;
+    if (principal <= 0)
+    {alert("I am an alert box!");
+    }
+    else{
+        return;
+    }
 
