@@ -8,10 +8,10 @@ function compute(){
     var maturitydate = new Date().getFullYear() + years;
     
     
-    document.getElementById("result").innerHTML=   "If you deposit <mark>" + principal + "</mark>,\<br\>
-                                                     at an interest rate of <mark>" + rate + "</mark>%,\<br\>
-                                                     You will receive an amount of <mark> "+ interest +" </mark>,\<br\>
-                                                     in the year "+ maturitydate +"\<br\>"    
+    document.getElementById("result").innerHTML=   "If you deposit <mark>" + principal + "</mark>,<br\>
+                                                     at an interest rate of <mark>" + rate + "</mark>%,<br\>
+                                                     You will receive an amount of <mark> "+ interest +" </mark>,<br\>
+                                                     in the year "+ maturitydate +"<br\>"    
 }
 
 
