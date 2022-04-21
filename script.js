@@ -36,7 +36,7 @@ function updateRate(onchange)
 function ValidationofNum(){
     var x = document.getElementById("principal").value;
     // define x is the input
-    if (x < 0)
+    if (x <= 0)
     {alert("Enter a positive number");
      // if x is smaller then zero, pop alert "Enter a positive number"
     }
