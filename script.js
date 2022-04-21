@@ -1,6 +1,8 @@
 
 
-function compute(){
+function compute()
+{
+{
     var principal = parseFloat(document.getElementById("principal").value);  
     var rate = parseFloat(document.getElementById("rate").value);
     var years = parseInt(document.getElementById("years").value);
@@ -29,4 +31,5 @@ function validateAmount() {
         document.getElementById("principal").focus();
     }
 
+}
 }
