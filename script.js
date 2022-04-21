@@ -5,7 +5,6 @@ function compute(){
     var rate = parseFloat(document.getElementById("rate").value);
     var years = parseInt(document.getElementById("years").value);
     var interest = principal * years * rate /100;
-    var year = new Date().getFullYear()+parseInt(years);
     var maturitydate = new Date().getFullYear() + years;
     
     
